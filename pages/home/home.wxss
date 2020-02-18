@@ -16,3 +16,44 @@
   width:150rpx;
   height: 200rpx;
 }
+
+
+.goodsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.goodsContainer .item{
+  width: 48%;
+  position: relative
+}
+
+.goodsContainer .mainImage{
+  width: 100%;
+  border-radius: 20rpx;
+}
+
+
+
+.other_info {
+  position: relative;
+}
+
+.other_info .price{
+  padding-left:60rpx; 
+}
+
+.other_info image{
+  width: 28rpx; 
+  height: 28rpx; 
+  left: 140rpx;
+  top:8rpx;
+  position: absolute;
+}
+
+.other_info .fav{
+  left: 170rpx;
+  top:1rpx;
+  position: absolute;
+}

@@ -14,10 +14,27 @@
 
 <!-- 3.本周流行(一张图片) -->
 <view>
-<image style="width:100%;"src="/assets/images/home/popular.jpg" mode="widthFix" />
+  <image style="width:100%;" src="/assets/images/home/popular.jpg" mode="widthFix" />
 </view>
 
 <!-- 4.tab-control -->
-<tab-control title="{{tabTitle}}" 
-             bind:tabItemClick="handleTabItemClick"
-/>
+<tab-control title="{{tabTitle}}" bind:tabItemClick="handleTabItemClick" />
+
+<!-- 5.衣服列表 -->
+<view class="goodsContainer">
+  <block wx:for="{{goods[curTitleType].list}}" wx:key="{{index}}">
+    <view class="item">
+      <image class="mainImage" src="{{item.image}}"></image>
+      <view class="desc_info">
+        <view>{{item.title}}</view>
+      </view>
+      <view class="other_info">
+        <view class="price" style="color:red;">¥{{item.price}}</view>
+        <image src="/assets/images/common/favor.png" />
+        <view class="fav">{{item.fav}}</view>
+      </view>
+
+    </view>
+
+  </block>
+</view>
