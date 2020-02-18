@@ -168,5 +168,13 @@ Page({
     // console.log("碰到底部了")
     this.getGoodsData(this.data.curTitleType)
   },
+
+  // 滚动
+  handleBackTop(){
+    // 回到顶部
+    wx.pageScrollTo({
+      scrollTop: 0,
+    })
+  }
   
 })

@@ -33,8 +33,14 @@
         <image src="/assets/images/common/favor.png" />
         <view class="fav">{{item.fav}}</view>
       </view>
-
     </view>
-
   </block>
+</view>
+
+
+<!-- 6. 收到顶部 -->
+<view>
+   <image class="backTop" 
+          bindtap="handleBackTop" 
+          src="/assets/images/common/top.png" />
 </view>
