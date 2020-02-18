@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "z-swiper":"/components/z-swiper/z-swiper"
+    "z-swiper":"/components/z-swiper/z-swiper",
+    "tab-control": "/components/tab-control/tab-control"
   },
   "navigationBarTitleText": "购物街"
 

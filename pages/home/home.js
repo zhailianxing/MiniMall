@@ -37,7 +37,9 @@ Page({
         "image": "https://s10.mogucdn.com/mlcdn/c45406/180913_8d4e5adi8llg7c47lgh2291akiec7_225x225.png",
         "title": "初秋上新",
       }
-    ]
+    ],
+    // tab title
+    tabTitle: ["流行", "新款", "精选"]
   },
 
   /**
@@ -60,4 +62,11 @@ Page({
     //   }
     // })
   },
+
+  // 处理component/tab-control中的监听
+  handleTabItemClick(event) {
+    //   console.log(event)
+    // console.log(event.detail)
+
+  }
 })

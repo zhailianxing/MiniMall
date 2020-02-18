@@ -1,0 +1,19 @@
+/* components/tab-control/tab-control.wxss */
+
+
+.tab-control-container{
+  display: flex;
+}
+.tab-control-item{
+ flex:1;
+ text-align: center;
+}
+
+.active {
+  color: pink;
+}
+
+.active text{
+  padding: 0 20rpx 0 20rpx;
+  border-bottom: 5rpx solid pink;
+}
