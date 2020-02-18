@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
-    "navigationBarTitleText": "购物街"
+  "usingComponents": {
+    "z-swiper":"/components/z-swiper/z-swiper"
+  },
+  "navigationBarTitleText": "购物街"
+
 }
