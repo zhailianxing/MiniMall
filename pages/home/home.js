@@ -161,5 +161,12 @@ Page({
     this.setData({
       curTitleType: titleType[index]
     })
-  }
+  },
+
+  // 下拉加载更多
+  onReachBottom(){
+    // console.log("碰到底部了")
+    this.getGoodsData(this.data.curTitleType)
+  },
+  
 })
