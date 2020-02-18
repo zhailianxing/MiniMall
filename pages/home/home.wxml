@@ -11,3 +11,8 @@
     </view>
   </block>
 </view>
+
+<!-- 3.本周流行(一张图片) -->
+<view>
+<image style="width:100%;"src="/assets/images/home/popular.jpg" mode="widthFix" />
+</view>
