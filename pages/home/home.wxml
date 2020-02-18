@@ -1,12 +1,20 @@
 <!-- 1.首页-轮播图 -->
-<swiper indicator-dots
-        indicator-active-color="#ff5777"
-        autoplay
-        circular
-        interval="2500">
+<swiper indicator-dots indicator-active-color="#ff5777" autoplay circular interval="2500">
   <block wx:for="{{banner}}" wx:key="{{index}}">
     <swiper-item>
-      <image src="{{item.image}}" mode="widthFix"></image>
+      <image style="width:100%" src="{{item.image}}" mode="widthFix" ></image>
     </swiper-item>
   </block>
 </swiper>
+
+
+<!-- 2.推荐icon展示 -->
+<view class="recommend">
+  <block  wx:for="{{recommend}}" wx:key="{{index}}">
+  <view class="recommend-item">
+    <image src="{{item.image}}"></image>
+    <view>{{item.title}}</view>
+  </view>
+  </block>
+
+</view>
